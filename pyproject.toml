@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "agent-flow"
+version = "0.1.0"
+description = ""
+authors = ["alex"]
+readme = "README.md"
+packages = [{include = "agent_flow"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.162.0"
+alembic = "^1.20.1"
+sqlalchemy = "^2.1.6"
+uv = "^0.13.5"
+uvicorn = "^0.54.0"
+httpx = "^0.28.1"
+requests = "^2.34.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
