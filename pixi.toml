@@ -12,6 +12,8 @@ pytest = ">=9.1.1,<10"
 uv = ">=0.13.5,<0.14"
 fastapi = ">=0.162.0,<0.163"
 ruff = ">=0.17.2,<0.18"
+sqlalchemy = ">=2.1.6,<3"
+alembic = ">=1.20.1,<2"
 
 
 [tool.pytest.ini_options]

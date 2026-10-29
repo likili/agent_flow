@@ -223,3 +223,4 @@ __marimo__/
 !.pixi/config.toml
 
 .history
+.vscode/*
